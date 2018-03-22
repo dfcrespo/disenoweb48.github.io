@@ -150,25 +150,35 @@ left: 5px;
   margin-left: auto;
 }
 
+#logo{
+  width: 30%;
+  height: 95px;
+  /* background: #FFF; */
+  float:left;
+  margin: 5px 190px 5px 15px;
+  background: url(../imagenes/logoUNAD2.png)
+  no-repeat;
+}
+
+header h1 h2{
+  width: 45%;
+  float: right;
+  height: 35px;
+  margin: 8px;
+
+}
+
 header h1{
-  display: inline-block;
-  width: 350px;
-  height: 80px;
-  margin: 10px ;
   font: bold 45px 'AngsanaBold';
   font-style: italic;
   color: #F0B429;
 }
 
-#logo{
-  display: inline-block;
-  width: 45%;
-  height: 95px;
-  /* background: #FFF; */
-  float: left;
-  margin-left: 30px;
-  background: url(../imagenes/logoUNAD2.png)
-  no-repeat;
+header h2{
+  font: bold 18px 'AngsanaBold';
+  font-style: italic;
+  float: right;
+  margin: 5px 12px;
 }
 
 #columna {
